@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<ChildForm>
+  <Control Type="System.Windows.Forms.TabControl" Name="tabControl1">
+    <Visible>True</Visible>
+    <Control Type="System.Windows.Forms.TabPage" Name="tabPage1">
+      <Visible>True</Visible>
+      <Control Type="System.Windows.Forms.Button" Name="button2">
+        <Visible>True</Visible>
+      </Control>
+      <Control Type="System.Windows.Forms.GroupBox" Name="groupBox8">
+        <Visible>True</Visible>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBoxRYStick">
+          <Text>Zaxis</Text>
+          <SelectedIndex>2</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBoxRXStick">
+          <Text>JogStep</Text>
+          <SelectedIndex>12</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBoxLYStick">
+          <Text>Yaxis</Text>
+          <SelectedIndex>1</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBoxLXStick">
+          <Text>Xaxis</Text>
+          <SelectedIndex>0</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.GroupBox" Name="groupBox9">
+          <Visible>True</Visible>
+          <Control Type="System.Windows.Forms.RadioButton" Name="radioButton13">
+            <Checked>False</Checked>
+            <Visible>True</Visible>
+          </Control>
+          <Control Type="System.Windows.Forms.RadioButton" Name="radioButton14">
+            <Checked>False</Checked>
+            <Visible>True</Visible>
+          </Control>
+          <Control Type="System.Windows.Forms.RadioButton" Name="radioButton15">
+            <Checked>True</Checked>
+            <Visible>True</Visible>
+          </Control>
+        </Control>
+      </Control>
+      <Control Type="System.Windows.Forms.GroupBox" Name="groupBox4">
+        <Visible>True</Visible>
+        <Control Type="System.Windows.Forms.ComboBox" Name="jog4">
+          <Text>.010</Text>
+          <SelectedIndex>3</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="jog3">
+          <Text>.005</Text>
+          <SelectedIndex>2</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="jog2">
+          <Text>.002</Text>
+          <SelectedIndex>1</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="jog1">
+          <Text>.001</Text>
+          <SelectedIndex>0</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.CheckBox" Name="checkBox4">
+          <Checked>True</Checked>
+          <Visible>True</Visible>
+        </Control>
+      </Control>
+      <Control Type="System.Windows.Forms.GroupBox" Name="groupBox6">
+        <Visible>True</Visible>
+        <Control Type="System.Windows.Forms.GroupBox" Name="groupBox7">
+          <Visible>True</Visible>
+          <Control Type="System.Windows.Forms.RadioButton" Name="radioButton10">
+            <Checked>False</Checked>
+            <Visible>True</Visible>
+          </Control>
+          <Control Type="System.Windows.Forms.RadioButton" Name="radioButton11">
+            <Checked>False</Checked>
+            <Visible>True</Visible>
+          </Control>
+          <Control Type="System.Windows.Forms.RadioButton" Name="radioButton12">
+            <Checked>True</Checked>
+            <Visible>True</Visible>
+          </Control>
+        </Control>
+        <Control Type="System.Windows.Forms.RadioButton" Name="radioButton7">
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.RadioButton" Name="radioButton8">
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.RadioButton" Name="radioButton9">
+          <Checked>True</Checked>
+          <Visible>True</Visible>
+        </Control>
+      </Control>
+      <Control Type="System.Windows.Forms.GroupBox" Name="groupBox5">
+        <Visible>True</Visible>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox25">
+          <Text />
+          <SelectedIndex>0</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+      </Control>
+      <Control Type="System.Windows.Forms.Button" Name="button4">
+        <Visible>True</Visible>
+      </Control>
+      <Control Type="System.Windows.Forms.GroupBox" Name="groupBox3">
+        <Visible>True</Visible>
+        <Control Type="System.Windows.Forms.CheckBox" Name="RevZStep">
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.CheckBox" Name="RevXStep">
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.CheckBox" Name="RevYStep">
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox23">
+          <Text />
+          <SelectedIndex>-1</SelectedIndex>
+          <Visible>False</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox24">
+          <Text />
+          <SelectedIndex>-1</SelectedIndex>
+          <Visible>False</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox21">
+          <Text />
+          <SelectedIndex>-1</SelectedIndex>
+          <Visible>False</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox22">
+          <Text />
+          <SelectedIndex>-1</SelectedIndex>
+          <Visible>False</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox19">
+          <Text />
+          <SelectedIndex>-1</SelectedIndex>
+          <Visible>False</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox20">
+          <Text />
+          <SelectedIndex>-1</SelectedIndex>
+          <Visible>False</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox17">
+          <Text />
+          <SelectedIndex>-1</SelectedIndex>
+          <Visible>False</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox18">
+          <Text />
+          <SelectedIndex>-1</SelectedIndex>
+          <Visible>False</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox15">
+          <Text>128</Text>
+          <SelectedIndex>29</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox16">
+          <Text />
+          <SelectedIndex>-1</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox13">
+          <Text>113</Text>
+          <SelectedIndex>14</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox14">
+          <Text>130</Text>
+          <SelectedIndex>31</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox11">
+          <Text />
+          <SelectedIndex>-1</SelectedIndex>
+          <Visible>False</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox12">
+          <Text />
+          <SelectedIndex>-1</SelectedIndex>
+          <Visible>False</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox9">
+          <Text />
+          <SelectedIndex>-1</SelectedIndex>
+          <Visible>False</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox10">
+          <Text />
+          <SelectedIndex>-1</SelectedIndex>
+          <Visible>False</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox7">
+          <Text />
+          <SelectedIndex>-1</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox8">
+          <Text>522</Text>
+          <SelectedIndex>157</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox5">
+          <Text />
+          <SelectedIndex>-1</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox6">
+          <Text />
+          <SelectedIndex>-1</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox3">
+          <Text />
+          <SelectedIndex>-1</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox4">
+          <Text>512</Text>
+          <SelectedIndex>147</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox2">
+          <Text />
+          <SelectedIndex>-1</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.ComboBox" Name="comboBox1">
+          <Text>513</Text>
+          <SelectedIndex>148</SelectedIndex>
+          <Visible>True</Visible>
+        </Control>
+      </Control>
+      <Control Type="System.Windows.Forms.CheckBox" Name="checkBox1">
+        <Checked>True</Checked>
+        <Visible>True</Visible>
+      </Control>
+      <Control Type="System.Windows.Forms.Button" Name="button1">
+        <Visible>True</Visible>
+      </Control>
+      <Control Type="System.Windows.Forms.GroupBox" Name="groupBox1">
+        <Visible>True</Visible>
+        <Control Type="System.Windows.Forms.RadioButton" Name="radioButton3">
+          <Checked>True</Checked>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.RadioButton" Name="radioButton2">
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.RadioButton" Name="radioButton1">
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+        </Control>
+      </Control>
+      <Control Type="System.Windows.Forms.GroupBox" Name="groupBox2">
+        <Visible>True</Visible>
+        <Control Type="System.Windows.Forms.RadioButton" Name="radioButton6">
+          <Checked>True</Checked>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.RadioButton" Name="radioButton5">
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+        </Control>
+        <Control Type="System.Windows.Forms.RadioButton" Name="radioButton4">
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+        </Control>
+      </Control>
+    </Control>
+    <Control Type="System.Windows.Forms.TabPage" Name="tabPage2">
+      <Visible>False</Visible>
+      <Control Type="System.Windows.Forms.TextBox" Name="textBox1">
+        <Visible>True</Visible>
+      </Control>
+    </Control>
+    <Control Type="System.Windows.Forms.TabPage" Name="tabPage3">
+      <Visible>False</Visible>
+      <Control Type="System.Windows.Forms.PictureBox" Name="pictureBox1">
+        <Visible>True</Visible>
+      </Control>
+      <Control Type="System.Windows.Forms.TextBox" Name="textBox2">
+        <Visible>True</Visible>
+      </Control>
+    </Control>
+  </Control>
+</ChildForm>

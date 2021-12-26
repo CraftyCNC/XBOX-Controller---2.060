@@ -1,0 +1,2 @@
+10/29/17  Updated jog velocity calculations, 1.0005a
+
