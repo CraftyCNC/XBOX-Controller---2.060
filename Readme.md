@@ -1,4 +1,4 @@
-UC_XBoxController:
+UC_XBoxController
 
 ABOUT:
 This is a UCCNC plugin for using an Xbox 360 controller w/ UCCNC.  It provides analog stick proportional velocity control.
