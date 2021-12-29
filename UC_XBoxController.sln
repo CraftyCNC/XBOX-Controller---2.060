@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "XBoxController", "Plugintest\XBoxController.vbproj", "{311E34E8-D126-0576-30D2-65FCE9BE7C5F}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "XBoxController", "XBoxController\XBoxController.vbproj", "{311E34E8-D126-0576-30D2-65FCE9BE7C5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
