@@ -396,34 +396,34 @@ Namespace Plugins
 
 #Region "SAFETY ENABLE   "
 
-                If myform.radioButton7.Checked Then
+                If myform.rbDubTrigEnable.Checked Then
 
-                If ltrig > 0.5 AndAlso rtrig > 0.5 AndAlso myform.cbEnableMain.Checked Then
-                    JogEnable = True
-                Else
-                    JogEnable = False
+                    If ltrig > 0.5 AndAlso rtrig > 0.5 AndAlso myform.cbEnableMain.Checked Then
+                        JogEnable = True
+                    Else
+                        JogEnable = False
+                    End If
+                ElseIf myform.rbSingTrigEnable.Checked Then
+
+                    If (ltrig > 0.5 OrElse rtrig > 0.5) AndAlso myform.cbEnableMain.Checked Then
+                        JogEnable = True
+                    Else
+                        JogEnable = False
+                    End If
+                ElseIf myform.rbVelTrigger.Checked Then
+                    JogEnable = myform.cbEnableMain.Checked
                 End If
-            ElseIf myform.radioButton8.Checked Then
 
-                If (ltrig > 0.5 OrElse rtrig > 0.5) AndAlso myform.cbEnableMain.Checked Then
-                    JogEnable = True
+
+                If myform.cbJSTrigEnab.Checked Then
+                    If (ltrig > 0.5 OrElse rtrig > 0.5) Then
+                        jogstepEnable = True
+                    Else
+                        jogstepEnable = False
+                    End If
                 Else
-                    JogEnable = False
-                End If
-            ElseIf myform.radioButton9.Checked Then
-                JogEnable = myform.cbEnableMain.Checked
-            End If
-
-
-            If myform.cbJSTrigEnab.Checked Then
-                If (ltrig > 0.5 OrElse rtrig > 0.5) Then
                     jogstepEnable = True
-                Else
-                    jogstepEnable = False
                 End If
-            Else
-                jogstepEnable = True
-            End If
 
 
 #End Region
@@ -487,15 +487,15 @@ Namespace Plugins
 
 
                     ' sensitivity selector
-                    If myform.radioButton4.Checked Then
+                    If myform.rbLinearRateRight.Checked Then
                         'jogvelRight = jogvelRight * 50
                         jogvelRightX = jogvelRightX * 50
                         jogvelRightY = jogvelRightY * 50
-                    ElseIf myform.radioButton5.Checked Then
+                    ElseIf myform.rbSquaredRateRight.Checked Then
                         'jogvelRight = jogvelRight * jogvelRight * 50 'jogvel^2
                         jogvelRightX = jogvelRightX * jogvelRightX * 50 'jogvel^2
                         jogvelRightY = jogvelRightY * jogvelRightY * 50 'jogvel^2
-                    ElseIf myform.radioButton6.Checked Then
+                    ElseIf myform.rbCubedRateRight.Checked Then
                         'jogvelRight = jogvelRight * jogvelRight * jogvelRight * 50 'jogvel^3 best
                         jogvelRightX = jogvelRightX * jogvelRightX * jogvelRightX * 50 'jogvel^3 best
                         jogvelRightY = jogvelRightY * jogvelRightY * jogvelRightY * 50 'jogvel^3 best
@@ -506,13 +506,13 @@ Namespace Plugins
 
 
 
-                    If myform.radioButton9.Checked Then
+                    If myform.rbVelTrigger.Checked Then
                         Dim accelRight As Double
                         accelRight = rtrig + 1 ' set accel to be between 1-2 with trigger pull
                         'jogvelRight = jogvelRight * accelRight  'velocity is mix of stick and trigger actions
                         jogvelRightX = jogvelRightX * accelRight  'velocity is mix of stick and trigger actions
                         jogvelRightY = jogvelRightY * accelRight  'velocity is mix of stick and trigger actions
-                    ElseIf myform.radioButton7.Checked OrElse myform.radioButton8.Checked Then  ' If using the shoulder as a safety.... velocity scale to 100
+                    ElseIf myform.rbDubTrigEnable.Checked OrElse myform.rbSingTrigEnable.Checked Then  ' If using the shoulder as a safety.... velocity scale to 100
                         'jogvelRight = jogvelRight * 2
                         jogvelRightX = jogvelRightX * 2
                         jogvelRightY = jogvelRightY * 2
@@ -557,15 +557,15 @@ Namespace Plugins
 
 
                     ' sensitivity selector  
-                    If myform.radioButton1.Checked Then ' jogvel
+                    If myform.rbLinearRateLeft.Checked Then ' jogvel
                         'jogvelLeft = jogvelLeft * 50
                         jogvelLeftX = jogvelLeftX * 50
                         jogvelLeftY = jogvelLeftY * 50
-                    ElseIf myform.radioButton2.Checked Then
+                    ElseIf myform.rbSquaredRateLeft.Checked Then
                         'jogvelLeft = jogvelLeft * jogvelLeft * 50 'jogvel^2
                         jogvelLeftX = jogvelLeftX * jogvelLeftX * 50 'jogvel^2
                         jogvelLeftY = jogvelLeftY * jogvelLeftY * 50 'jogvel^2
-                    ElseIf myform.radioButton3.Checked Then
+                    ElseIf myform.rbCubedRateLeft.Checked Then
                         'jogvelLeft = jogvelLeft * jogvelLeft * jogvelLeft * 50 'jogvel^3 best
                         jogvelLeftX = jogvelLeftX * jogvelLeftX * jogvelLeftX * 50 'jogvel^3 best
                         jogvelLeftY = jogvelLeftY * jogvelLeftY * jogvelLeftY * 50 'jogvel^3 best
@@ -574,13 +574,13 @@ Namespace Plugins
                     'else
                     '    MessageBox.Show("error selecting speed");
 
-                    If myform.radioButton9.Checked Then ' If the shoulder button is not safety enable, use to modify velocity
+                    If myform.rbVelTrigger.Checked Then ' If the shoulder button is not safety enable, use to modify velocity
                         Dim accelLeft As Double
                         accelLeft = ltrig + 1 ' set accel to be between 1-2 with trigger pull
                         'jogvelLeft = jogvelLeft * accelLeft  'velocity is mix of stick and trigger actions
                         jogvelLeftX = jogvelLeftX * accelLeft  'velocity is mix of stick and trigger actions
                         jogvelLeftY = jogvelLeftY * accelLeft  'velocity is mix of stick and trigger actions
-                    ElseIf myform.radioButton7.Checked OrElse myform.radioButton8.Checked Then  ' If using the shoulder as a safety.... velocity scale to 100
+                    ElseIf myform.rbDubTrigEnable.Checked OrElse myform.rbSingTrigEnable.Checked Then  ' If using the shoulder as a safety.... velocity scale to 100
                         'jogvelLeft = jogvelLeft * 2
                         jogvelLeftX = jogvelLeftX * 2
                         jogvelLeftY = jogvelLeftY * 2

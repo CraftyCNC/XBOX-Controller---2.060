@@ -217,7 +217,7 @@ the plugin.
 Once the number is set by user, you may then create your own button
 or assign that number to a HotKey in UCCNC to open/show the plugin.</value>
   </data>
-  <data name="radioButton9.ToolTip" xml:space="preserve">
+  <data name="rbVelTrigger.ToolTip" xml:space="preserve">
     <value>Triggers as Velocity increaser uses the left trigger to act as a 1-2x
 velocity increaser for the left stick functions and the right trigger to act
 as a 1-2x velocity increaser for the right stick functions. 
